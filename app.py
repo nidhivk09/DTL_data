@@ -15,5 +15,6 @@ alt.themes.enable("dark")
 df=pd.read_csv('responses.csv')
 
 st.title('AR/VR powered Immersive Study Space 📚')
+st.image('lofigirl.png')
 
 st.subheader('1. Meet or stakeholders.')
