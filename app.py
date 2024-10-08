@@ -47,3 +47,17 @@ st.image('doyouknowarvr.png')
 
 st.subheader('**8. Is it important to customize study space?**')
 
+st.image('studyspacepersonal.png')
+
+st.header('9. Are stakeholders open to integrate AR/VR to set up their study spaces?')
+
+st.image('opentousearinstudt.png')
+
+st.subheader('10. What are the main features to be included in the product?')
+
+st.image('features.png')
+
+st.subheader('11. Are the user willing to be a part in the testing pahse of the product development?')
+
+st.image('betatester.png')
+
