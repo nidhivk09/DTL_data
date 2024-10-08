@@ -20,7 +20,7 @@ st.title('AR/VR powered Immersive Study Space 📚')
 
 st.write(" Over the past 2 weeks we conducted a survey whoch garnered more than 150 responses and recorded 40+ interviews. Following dashboard shows the data visualisation of the dta that was collected. This data will aid us to develop and product and incorporate most of the user requested features to make it an inclusive product that creates a differnec in evry user's life.")
 
-st.subheader('1. Meet our stakeholders.')
+st.subheader('**1. Meet our stakeholders.**')
 
 st.image('role.png')
 
@@ -42,4 +42,8 @@ st.subheader('6. Does the current space motivate them to be productive?')
 
 st.image('iscureentspacegood.png')
 
+st.subheader('How familiar are our stakeholders about the AR/ VR technology?')
+st.image('doyouknowarvr.png')
+
+st.subheader(
 
