@@ -12,6 +12,6 @@ st.set_page_config(
 
 alt.themes.enable("dark")
 
-df=pd.read_csv('AR VR Spaces Responses.csv')
+df=pd.read_csv('responses.csv')
 
 st.title('AR/VR powered Immersive Study Space 📚')
