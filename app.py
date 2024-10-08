@@ -42,8 +42,8 @@ st.subheader('6. Does the current space motivate them to be productive?')
 
 st.image('iscureentspacegood.png')
 
-st.subheader('How familiar are our stakeholders about the AR/ VR technology?')
+st.subheader('7.How familiar are our stakeholders about the AR/ VR technology?')
 st.image('doyouknowarvr.png')
 
-st.subheader(
+st.subheader('**8. Is it important to customize study space?**')
 
