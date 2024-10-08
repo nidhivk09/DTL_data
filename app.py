@@ -36,6 +36,7 @@ st.write('Analysis: Majority of people preferred reading textbooks and watching 
 
 st.subheader('3. How much time do they spend on upskilling/ studying?')
 st.image('studytime.png')
+st.write("Analysis: Most people spend around 1-2hrs studying, which gives us insights about theit study pattern")
 
 
 
@@ -43,6 +44,7 @@ st.image('studytime.png')
 st.subheader('4. Do they have a dedicated study space?')
 
 st.image('dedicatedstudyspace.png')
+st.write("Almost 3/4th of our responders have a dedicated study space")
 
 
 
@@ -50,6 +52,8 @@ st.image('dedicatedstudyspace.png')
 st.subheader('5. How is their current study space?')
 
 st.image('currentstudy.png')
+st.write("Our responders studied in their room at home or hostel room with only a minority of them studying in a library of with friends")
+
 
 
 
@@ -57,11 +61,13 @@ st.image('currentstudy.png')
 st.subheader('6. Does the current space motivate them to be productive?')
 
 st.image('iscureentspacegood.png')
+st.write("Most people were unsure of whether their study space motivated them to be productive")
 
 
 
 st.subheader('7.How familiar are our stakeholders about the AR/ VR technology?')
 st.image('doyouknowarvr.png')
+st.write("Almost 60-70% had good to excellent knowledge about AR/VR technology, which gives useful insights about our potential user base")
 
 
 
