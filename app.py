@@ -27,3 +27,19 @@ st.image('role.png')
 st.subheader('2. How do they study/ work')
 
 st.image('howstudy.png')
+st.subheader('3. How much time do they spend on upskilling/ studying')
+st.image('studytime.png')
+
+st.subheader('4. Do they have a dedicated study space')
+
+st.image('dedicatedstudyspace.png')
+
+st.subheader('5. How is their current study space?')
+
+st.image('currentstudy.png')
+
+st.subheader('6. Does the current space motivate them to be productive?')
+
+st.image('iscureentspacegood.png')
+
+
