@@ -16,4 +16,4 @@ df=pd.read_csv('responses.csv')
 
 st.title('AR/VR powered Immersive Study Space 📚')
 
-st.write('1. Meet or stakeholders.')
+st.subheader('1. Meet or stakeholders.')
