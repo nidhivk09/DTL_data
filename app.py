@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-from wordcloud import WordCloud
 
 # Load the filtered data
 df = pd.read_excel('/mnt/data/AR VR Study Spaces Responses.xlsx', sheet_name='Form Responses 1')
@@ -50,21 +48,19 @@ ax.pie(space_counts, labels=space_counts.index, autopct='%1.1f%%', startangle=90
 ax.axis('equal')
 st.pyplot(fig)
 
-# Section 5: Study/Work Environment
+# Section 5: Current Study/Work Environment
 st.subheader("Current Study/Work Environment")
-environments = filtered_df['What does your current study or work environment look like?'].dropna()
-env_wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(environments))
-fig, ax = plt.subplots(figsize=(10, 5))
-ax.imshow(env_wordcloud, interpolation='bilinear')
-ax.axis('off')
+environment_counts = filtered_df['What does your current study or work environment look like?'].value_counts()
+fig, ax = plt.subplots()
+ax.barh(environment_counts.index, environment_counts.values, color='orange')
+ax.set_xlabel("Number of Participants")
 st.pyplot(fig)
 
-# Section 6: Features of Ideal Immersive Study Environment
+# Section 6: Features in Ideal Immersive Study Environment
 st.subheader("Features in Ideal Immersive Study Environment")
-features = filtered_df['What features would you want to have in your ideal immersive study environment?'].dropna()
-features_wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(features))
-fig, ax = plt.subplots(figsize=(10, 5))
-ax.imshow(features_wordcloud, interpolation='bilinear')
-ax.axis('off')
+features_counts = filtered_df['What features would you want to have in your ideal immersive study environment?'].value_counts()
+fig, ax = plt.subplots()
+ax.barh(features_counts.index, features_counts.values, color='purple')
+ax.set_xlabel("Number of Mentions")
 st.pyplot(fig)
 
