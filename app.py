@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
-from annotated_text import annotated_text
+
 
 
 st.set_page_config(
