@@ -23,3 +23,7 @@ st.write(" Over the past 2 weeks we conducted a survey whoch garnered more than 
 st.subheader('1. Meet our stakeholders.')
 
 st.image('role.png')
+
+st.subheader('2. How do they study/ work')
+
+st.image('howstudy.png')
