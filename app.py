@@ -30,6 +30,7 @@ st.write("Analysis: almost 90 % of our users are students")
 st.subheader('2. How do they study/ work?')
 
 st.image('howstudy.png')
+st.write('Analysis: Majority of people preferred reading textbooks and watching video tutorials over enganging in group discussions')
 
 
 
